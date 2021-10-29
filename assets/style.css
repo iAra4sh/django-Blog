@@ -1,7 +1,10 @@
 body{
 
   background-color:#37b746;
-  background-image:url(backg.jpg)
+  background-image:url(backg.jpg);
+  color:#fff;
+  background-repeat-y:no-repeat;
+  background-attachment: fixed;
 }
 
 body *{
