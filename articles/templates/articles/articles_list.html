@@ -6,7 +6,7 @@ Articles
 
 {% block content %}
 
-<h1>Articles List</h1>
+<h1>Articles Lists</h1>
 
 <div class="articles">
 
@@ -16,6 +16,7 @@ Articles
     <h2><a href="{% url 'articles:detail' slug=article.slug %}">{{article.title}}</a></h2>
     <p>{{article.snippet}}</p>
     <p>{{article.date}}</p>
+    <p class='author'>added by {{article.author.username}}</p>
   </div>
   
   {% endfor %}
